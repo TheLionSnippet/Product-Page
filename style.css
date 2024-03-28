@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 70px;
+    gap: 70px;
+}
+
+#left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+#left h1{
+    font-size: 4.5vw;
+    font-weight: 450;
+    margin-top: 20%;
+    padding: 40px;
+    line-height: 90px;
+}
+#bottom-left{
+    width: 100%;
+}
+
+#colors{
+    font-size: 15px;
+    width: fit-content;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 35px;
+}
+
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#bottom-left h2{
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+#bottom-left p{
+    margin-left: 35px;
+    line-height: 25px;
+    width: 70%;
+    color: rgb(96, 84, 84);
+}
+
+#right{
+    height: 75%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#right-top h5 i{
+    color: goldenrod;
+}
+#right img{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
+#cart-button{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Playfairt";
+    left: 80%;
+    bottom: 40%;
+}
+#cart-button h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+#rotated{
+    position: absolute;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    left: -15px;
+    font-size: 20px;
+    font-weight: 600;
+}
